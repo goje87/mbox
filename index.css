@@ -14,7 +14,7 @@ body {
   background-image: url('./images/background.jpeg');
   background-position: top center;
   
-  width: 1000px;
+  width: 546px;
   margin: auto;
   text-align: center;
   color: #b51c1c;
@@ -60,5 +60,5 @@ body, table, td {
 .comingSoon {
   position: absolute;
   top: 20px;
-  right: 220px;
+  right: 0;
 }
