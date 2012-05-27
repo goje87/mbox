@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Agency FB';
+  src: url('./fonts/AGENCYR.TTF');
+}
+
+@font-face {
+  font-family: 'Agency FB';
+  font-weight: bold;
+  src: url('./fonts/AGENCYB.TTF');
+}
+
+body {
+  background-color: #f0f0f0;
+  background-image: url('./images/background.jpeg');
+  background-position: top center;
+  
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  color: #b51c1c;
+  position: relative;
+}
+
+a {
+  color: #b51c1c;
+}
+
+body, table, td {
+  font-family: 'Agency FB';
+  text-shadow: 0 1px 2px #aaa;
+}
+
+.center {
+  margin: auto;
+}
+
+.logo {
+  display: block;
+}
+
+.like {
+  width: 410px;
+}
+
+.like-message {
+  font-size: 1.5em;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.like-button {
+  width: 100px;
+}
+
+.facebook-link {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.comingSoon {
+  position: absolute;
+  top: 20px;
+  right: 220px;
+}
